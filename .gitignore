@@ -1,0 +1,26 @@
+# ----------------------------------------------------------------------
+# Environment Variables
+# ----------------------------------------------------------------------
+
+# Ignore all standard environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore specific environment environments
+.env.development
+.env.test
+.env.production
+.env.staging
+
+# Ignore any other .env variations (Catch-all)
+.env.*
+
+# ----------------------------------------------------------------------
+# Exceptions (DO NOT IGNORE)
+# ----------------------------------------------------------------------
+
+# Keep example, template, and sample files so other developers have a reference
+!.env.example
+!.env.template
+!.env.sample
